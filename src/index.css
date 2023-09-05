@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.grocery-form > h3 {
+  text-align: center;
+}
+
+.section-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 1);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.clear-btn {
+  background-color: white;
+  color: rgb(114, 5, 5)s;
+}
+
+.grocery-input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  background-color: rgb(232, 232, 232);
+}
+
+.grocery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grocery-list {
+  width:200px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-family: 20px;
+}
+
+.submit-btn {
+  background-color: white;
+  font-weight: bold;
+  color: rgb(11, 137, 209);
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.btn {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.edit-btn {
+  background-color: white;
+  color: rgb(51, 247, 51);
+}
+
+.delete-btn {
+  background-color: white;
+  color: rgb(114, 5, 5);
+}
+
+.alert {
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+}
+
+.alert-success {
+  background-color: lightgreen;
+  color: green;
+}
+
+.alert-danger {
+  background-color: rgb(246, 137, 137);
+  color: rgb(114, 5, 5);
+}
